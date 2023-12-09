@@ -71,8 +71,7 @@
 
             <div class="flex flex-col items-center justify-between sm:flex-row">
                 <a href="#"
-                    class="text-2xl font-bold text-gray-800 transition-colors duration-300 hover:text-gray-700 dark:text-white dark:hover:text-gray-300">Abdellah
-                    Allali - عبدالله علالي</a>
+                    class="text-2xl font-bold text-gray-800 transition-colors duration-300 hover:text-gray-700 dark:text-white dark:hover:text-gray-300">Abdellah Allali - عبدالله علالي</a>
                 <ul class="flex justify-center mt-5 space-x-5">
 
                     <li>

@@ -7,7 +7,7 @@ import Profiles from "../components/Profiles.vue"
 import FeedBacks from "../components/Feedbacks.vue"
 import Contact from "../components/Contact.vue"
 import BlogShowcase from "../components/BlogShowcase.vue"
-
+import { infos } from "@/content/portfolio.data"
 const isOpen = ref(false)
 
 </script>
@@ -18,13 +18,10 @@ const isOpen = ref(false)
   </section>
 
   <section class="bg-white dark:bg-gray-900">
-
-
     <!-- My Story -->
     <div class="bg-gray-100 dark:bg-gray-800">
       <div class="container mx-auto px-6 py-10">
-        <h1 class="text-center text-3xl font-semibold capitalize text-gray-800 dark:text-white lg:text-4xl">My Story
-        </h1>
+        <h1 class="text-center text-3xl font-semibold capitalize text-gray-800 dark:text-white lg:text-4xl">My Story</h1>
 
         <div class="mx-auto mt-6 flex justify-center">
           <span class="inline-block h-1 w-40 rounded-full bg-blue-500"></span>
@@ -32,19 +29,8 @@ const isOpen = ref(false)
           <span class="inline-block h-1 w-1 rounded-full bg-blue-500"></span>
         </div>
 
-        <p class="mx-auto mt-6   max-w-4xl text-start text-gray-800 dark:text-gray-300 text-lg font-normal">Hey there !
-          I'm Abdellah, a
-          software engineer with great passion about computers, I have a keen interest in the fields of modern web
-          technologies, applied ML as well as OSS. I'm currently pursuing a master of science in computer science mainly
-          focused on Database architecture and data. I have also made some side projects some of which made it to my
-          public GitHub.
-          <br>
-          <br>
-
-          Most of technologies I work with were self-taught, I try to log some of the things I learn in this blog from
-          tech-savvy ideas about a certain tool to common useful development patterns. I also try to keep the blog
-          updated with various articles about my interests and day-to-day learnings.
-        </p>
+        <p class="mx-auto mt-6   max-w-4xl text-start text-gray-800 dark:text-gray-300 text-lg font-normal"
+          v-html="infos.longBio"></p>
       </div>
     </div>
   </section>

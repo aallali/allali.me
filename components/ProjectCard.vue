@@ -1,10 +1,11 @@
 <template >
     <div>
         <div class="relative group overflow-hidden">
-            <img class="h-96 w-full rounded-lg   border-gray-400 border" :src="image" :alt="title" />
+            <img :class="isCover ? 'object-cover' : 'object-scale-down'"
+                class="h-96 w-full rounded-lg  border-gray-400 border" :src="image" :alt="title" />
 
             <div
-                class="flex flex-col opacity-0 group-hover:opacity-95 absolute inset-x-0 bottom-0 justify-center items-center text-3xl text-center bg-gray-500 text-black font-semibold h-full transition-all transform translate-y-8 group-hover:translate-y-0 duration-1000  rounded-lg p-4">
+                class="flex flex-col opacity-0 group-hover:opacity-95 absolute inset-x-0 bottom-0 justify-center items-center text-2xl text-center bg-gray-500 text-black font-semibold h-full transition-all transform translate-y-8 group-hover:translate-y-0 duration-1000  rounded-lg p-4">
 
                 <div class="m-auto ">
                     {{ description }}
@@ -24,5 +25,5 @@
     </div>
 </template>
 <script setup lang="ts">
-defineProps<{ title: string, image: string, description: string }>()
+defineProps<{ title: string, image: string, description: string, isCover?: boolean }>()
 </script>
