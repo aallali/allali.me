@@ -37,7 +37,7 @@ useSeoMeta({
 <template>
     <main :class="{ dark: isDark }">
         <section class="bg-white dark:bg-gray-900 theme-dark px-6">
-            <nav x-data="{ isOpen: false }" class="container mx-auto max-w-4xl py-6 lg:flex lg:items-center lg:justify-between">
+            <nav class="container mx-auto max-w-4xl py-6 lg:flex lg:items-center lg:justify-between">
                 <div class="flex items-center justify-between">
                     <div class="mb-2 sm:mb-0 flex flex-row">
                         <div class="h-10 w-10 self-center mr-2">
