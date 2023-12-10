@@ -7,13 +7,16 @@
             <p class="mx-auto mt-4 max-w-lg text-gray-500">My Latest posts </p>
         </div>
 
-        <div class="mt-8 grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-2 xl:grid-cols-3">
-            <div v-for="post in posts">
-                <div class="relative">
-                    <img class="h-64 w-full rounded-lg object-cover object-center  " :src="post.image" loading="lazy"
-                        :alt="post.title" />
+        <div class="mt-8 grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-2 xl:grid-cols-4  ">
 
-                    <!-- <div class="absolute bottom-0 flex bg-white p-3 dark:bg-gray-900 rounded-tr-xl">
+            <div v-if="posts?.length"  v-for="post in posts">
+                <a :href="post.link" target="_blank">
+
+                    <div class="relative">
+                        <img class="h-44 w-full rounded-lg object-cover object-center shadow-md" :src="post.image" loading="lazy"
+                            :alt="post.title" />
+
+                        <!-- <div class="absolute bottom-0 flex bg-white p-3 dark:bg-gray-900 rounded-tr-xl">
                         <img class="h-10 w-10 rounded-full object-cover object-center"
                             src="/images/author.jpeg"
                             alt="" />
@@ -23,17 +26,20 @@
                             <p class="text-sm text-gray-500 dark:text-gray-400">Creative Director</p>
                         </div>
                     </div> -->
-                </div>
+                    </div>
 
-                <h1 class="mt-6 text-xl font-semibold text-gray-800 dark:text-white">{{ post.title }}</h1>
+                    <h1 class="mt-6 text-lg font-semibold text-gray-800 dark:text-white">{{ post.title }}</h1>
+                </a>
+
 
                 <!-- <hr class="my-6 w-32 text-blue-500" /> -->
                 <!-- 
                 <p class="text-sm text-gray-500 dark:text-gray-400">{{ post.description }}</p> -->
 
-                <a :href="post.link" class="mt-1 inline-block text-blue-500 underline hover:text-blue-400">Read more</a>
+                <!-- <a :href="post.link" class="mt-1 inline-block text-blue-500 underline hover:text-blue-400">Read more</a> -->
             </div>
 
+            <h1 v-else class="text-4xl">Loading Blog Posts...</h1>
         </div>
     </div>
 </template>
