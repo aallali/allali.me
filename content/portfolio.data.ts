@@ -6,7 +6,7 @@ export const infos = {
     welcomeHeadline: 'Hi 👋, I\'m Abdellah',
     briefBio: 'A <b class="text-blue-600">software engineer</b> and open-source enthusiast, I enjoy keeping this blog regularly updated with insights gained along my life journey and topics that pique my interest.',
     longBio:
-        `Hello, I'm Abdellah, a dedicated <b>software engineer</b> deeply passionate about the intricacies of <b>computer science</b>. My expertise spans modern <b>web technologies</b>, applied <b>machine learning</b>, and contributions to <b>open-source software</b>. Currently pursuing a <b>Master of Science in Computer Science</b>, my primary focus revolves around <b>database architecture</b> and <b>data</b>..
+        `Hello, I'm Abdellah, a dedicated <b>software engineer</b> deeply passionate about the intricacies of <b>computer science</b>. My expertise spans modern <b>web technologies</b>, applied <b>machine learning</b>, and contributions to <b>open-source software</b>. Currently pursuing a <b>Master of Science in Computer Science</b>, primary focused around <b>database architecture</b> and <b>data</b>.
 <br>
 <br> 
 Throughout my journey, I've independently acquired proficiency in a diverse range of technologies. I document my learning experiences on this blog, covering everything from tech-savvy insights into specific tools to invaluable development patterns. Committed to staying abreast of the latest industry trends, I regularly update the blog with articles that delve into my interests and the insights gained from my day-to-day experiences. Furthermore, you can explore some of my noteworthy <b>side projects</b> on my public GitHub repository.`,
@@ -14,14 +14,85 @@ Throughout my journey, I've independently acquired proficiency in a diverse rang
         subtitle: '',
         projects: [
             {
-                title: '',
-                image: '',
+                title: 'Gomoku engine',
+                image: 'https://www.ebuyer.com/blog/wp-content/uploads/2017/10/game-of-go-with-robot-hand.jpg',
                 link: {
                     demo: '',
                     github: '',
                 },
-                description: ''
+                description: 'An engine designed play Gomoku and win everytime',
+                isCoverImg: true
+            },
+            {
+                title: 'Leaffliction',
+                image: 'https://camo.githubusercontent.com/4a40452bf14786ccfb502f5524574fb593536bff9d06bd3c0a5c14d232646131/68747470733a2f2f692e696d6775722e636f6d2f59734d697936422e676966',
+                link: {
+                    demo: '',
+                    github: '',
+                },
+                description: 'Here, I perform the analysis, augmentation and transformation of a leaf dataset. After image classification using a Convolutional Neural Network.',
+                isCoverImg: true
+            },
+            {
+                title: 'Linear Regression from scratch',
+                image: 'https://raw.githubusercontent.com/aallali/ft-linear-regression/main/pic/LR-Live.gif',
+                link: {
+                    demo: '',
+                    github: '',
+                },
+                description: 'The aim of this project is to introduce you to the basic concept behind machine learning. For this project, you will have to create a program that predicts the price of a car by using a linear function train with a gradient descent algorithm.',
+
+            },
+            {
+                title: 'DSLR',
+                image: 'https://i.imgur.com/70PtVql.gif',
+                link: {
+                    demo: '',
+                    github: '',
+                },
+                description: 'Data Science x Logistic Regression, is a project that aims to analyze a data set and predict Hogwarts House.',
+                isCoverImg: true
+            },
+            {
+                title: 'N-Puzzle',
+                image: '/images/n-puzzle.png',
+                link: {
+                    demo: '',
+                    github: '',
+                },
+                description: 'Engine written in JS, designed to solve a slide puzzle of size N quicker, using various search algorithms'
+            },
+            {
+                title: 'DeepEye',
+                image: 'https://raw.githubusercontent.com/aallali/DeepEye/main/Ressources/DeepEye-logo.png',
+                link: {
+                    demo: '',
+                    github: '',
+                },
+                description: 'a CLI that simply help you make search queries through files quickly using plain text or regex expressions, while having detailed output about it. The project meant to be simple and HELPFUL'
+            },
+            {
+                title: 'Inception of Things',
+                image: 'https://cloudvests.com/wp-content/uploads/2020/08/How-To-Create-a-Kubernetes-Cluster-Using-Kubeadm-on-Ubuntu-18.jpg',
+                link: {
+                    demo: '',
+                    github: '',
+                },
+                description: 'This project aims to introduce you to kubernetes from a developer perspective. You will have to set up small clusters and discover the mechanics of continuous integration. At the end of this project you will be able to have a working cluster in docker and have a usable continuous integration for your applications Resources',
+                isCoverImg: true
+            },
+            {
+                title: 'Red-Tetris',
+                image: 'https://img.joomcdn.net/42c6474dc9f0b60fb19e24871535d6bb96641832_original.jpeg',
+                link: {
+                    demo: '',
+                    github: '',
+                },
+                description: 'The objective of this project is to develop a networked multiplayer tetris game from a stack of software exclusively Full Stack Javascript',
             }
         ]
     }
+
 }
+export const projects = infos.portfolio.projects
+// image="https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41598-022-21498-5/MediaObjects/41598_2022_21498_Fig1_HTML.png?as=webp
