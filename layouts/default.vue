@@ -18,6 +18,7 @@ const routesNames: { [key: string]: string } = {
 const author = {
     name: 'Abdellah Allali'
 }
+
 useSeoMeta({
     title: routesNames[route.name as string] + ' | ' + author.name,
     ogTitle: routesNames[route.name as string] + ' | ' + author.name,
@@ -31,7 +32,6 @@ useSeoMeta({
     twitterCard: 'summary_large_image',
     twitterSite: 'is3dida'
 })
-
 
 </script>
 <template>
