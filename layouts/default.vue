@@ -11,7 +11,8 @@ const isDark = computed(() => useDarkMode.isDark)
 const routesNames: { [key: string]: string } = {
     'index': 'Home',
     'projects': 'Projects',
-    'blog': 'Blog'
+    'blog': 'Blog',
+    'art': 'Art',
 }
 
 const author = {

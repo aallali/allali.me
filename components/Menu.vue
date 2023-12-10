@@ -7,6 +7,8 @@ const menuElements = [
     { title: "Intro", url: "/" },
     // { title: "Projects", url: "/projects" },
     { title: "Blog", url: "https://blog.allali.me/" },
+    { title: "Art", url: "/art" },
+
 ]
 
 </script>
