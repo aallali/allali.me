@@ -45,7 +45,7 @@ Throughout my journey, I've independently acquired proficiency in a diverse rang
             },
             {
                 title: 'DSLR',
-                image: 'https://i.imgur.com/70PtVql.gif',
+                image: '/images/hogwarts.gif',
                 link: {
                     demo: '',
                     github: '',
@@ -83,16 +83,20 @@ Throughout my journey, I've independently acquired proficiency in a diverse rang
             },
             {
                 title: 'Red-Tetris',
-                image: 'https://img.joomcdn.net/42c6474dc9f0b60fb19e24871535d6bb96641832_original.jpeg',
+                image: '/images/tetris.gif',
                 link: {
                     demo: '',
                     github: '',
                 },
                 description: 'The objective of this project is to develop a networked multiplayer tetris game from a stack of software exclusively Full Stack Javascript',
+                isCoverImg: true
+
             }
         ]
     }
 
 }
+
+// oldTetris:https://img.joomcdn.net/42c6474dc9f0b60fb19e24871535d6bb96641832_original.jpeg
 export const projects = infos.portfolio.projects
 // image="https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41598-022-21498-5/MediaObjects/41598_2022_21498_Fig1_HTML.png?as=webp
