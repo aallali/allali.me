@@ -1,6 +1,6 @@
 <template >
     <div>
-        <div class="relative group overflow-hidden rounded-lg shadow-md">
+        <div class="relative group overflow-hidden rounded-lg shadow-md dark:shadow-gray-300 dark:shadow-sm">
             <img :class="isCover ? 'object-cover' : 'object-scale-down'"
                 class="h-60 w-full " :src="image" :alt="title" />
 
