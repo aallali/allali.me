@@ -34,7 +34,7 @@ Throughout my journey, I've independently acquired proficiency in a diverse rang
                 isCoverImg: true
             },
             {
-                title: 'Linear Regression from scratch',
+                title: 'Linear Regression',
                 image: 'https://raw.githubusercontent.com/aallali/ft-linear-regression/main/pic/LR-Live.gif',
                 link: {
                     demo: '',
