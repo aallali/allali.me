@@ -2,11 +2,14 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 import Intro from "../components/Intro.vue"
-import Projects from "../components/Projects.vue"
-import Profiles from "../components/Profiles.vue"
-import FeedBacks from "../components/Feedbacks.vue"
-import Contact from "../components/Contact.vue"
-import BlogShowcase from "../components/BlogShowcase.vue"
+import Projects from "../components/projects/Projects.vue"
+import BlogShowcase from "@/components/blog/BlogShowcase.vue"
+
+// import Profiles from "../components/unused/Profiles.vue"
+// import FeedBacks from "@/components/unused/Feedbacks.vue"
+// import Contact from "@/components/unused/Contact.vue"
+// import Questions from '~/components/unused/Questions.vue';
+
 import { infos } from "@/content/portfolio.data"
 const isOpen = ref(false)
 
@@ -40,29 +43,26 @@ const isOpen = ref(false)
     <Projects />
   </section>
 
-  <section class="bg-white dark:bg-gray-900" v-if="isOpen">
-    <!-- Profiles -->
+  <!-- <section class="bg-white dark:bg-gray-900" v-if="isOpen">
     <Profiles />
   </section>
 
   <section class="bg-white dark:bg-gray-900" v-if="isOpen">
     <FeedBacks />
-  </section>
+  </section> -->
 
   <section class="bg-white dark:bg-gray-900">
     <BlogShowcase />
   </section>
 
-  <section class="bg-white dark:bg-gray-900" v-if="isOpen">
-    <!-- Questions -->
-    <Questions />
-  </section>
+  <!-- <section class="bg-white dark:bg-gray-900" v-if="isOpen">
+     <Questions />
+  </section> -->
 
-  <section v-if="isOpen"
+  <!-- <section v-if="isOpen"
     class="min-h-screen bg-gradient-to-r from-blue-600 via-blue-800 to-blue-900 dark:from-gray-700 dark:via-gray-800 dark:to-gray-900">
-    <!-- Contact Form  -->
-    <Contact />
-  </section>
+     <Contact />
+  </section> -->
 </template>
   
  

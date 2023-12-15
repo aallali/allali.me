@@ -3,7 +3,7 @@
         <div class="mx-auto max-w-4xl">
             <div class="h-24 w-24 overflow-hidden rounded-full shadow-md">
                 <img class="hover:scale-150 transition-all duration-500 cursor-pointer" src="/images/author.jpeg"
-                    alt="author" loading="lazy" />
+                    alt="author"/>
             </div>
             <!-- <img class="h-24 w-24 object-cover overflow-hidden rounded-full scale-100" src="/images/author2.png"
             alt="Current profile photo" /> -->
@@ -21,7 +21,7 @@
 
         <div class="mt-10 mx-auto rounded-xl flex h-[400px] max-w-4xl justify-center overflow-hidden ">
             <img class="shadow-md object-cover w-full hover:scale-150 transition-all duration-[2000ms] cursor-pointer"
-                src="/images/moroccan-architecture.jpeg" loading="lazy" />
+                src="/images/moroccan-architecture.jpeg"/>
         </div>
     </div>
 </template>

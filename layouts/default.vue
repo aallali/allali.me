@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import NavMenu from "../components/Menu.vue"
-import NavMenuButton from "../components/MenuButton.vue"
+import NavMenu from "../components/menu/Menu.vue"
+import NavMenuButton from "../components/menu/MenuButton.vue"
 
 import { useSeoMeta, } from '@unhead/vue';
 import { useDarkMode } from "~/composable/store";

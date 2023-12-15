@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { useMenu } from '../composable/store'
-
+import { useMenu } from '@/composable/store'
+import DarkSwitcher from './DarkSwitcher.vue';
 // defineProps<{ switchDark: () => void }>()
 
 const menuElements = [

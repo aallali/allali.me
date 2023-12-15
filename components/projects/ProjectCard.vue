@@ -12,9 +12,9 @@
                 </div>
                 <div class="m-auto flex gap-4 justify-center">
                     <button
-                        class="mt-6 rounded-lg border-2 text-blue-300 border-blue-300 px-6 py-2.5 text-center text-xl font-medium capitalize leading-5   hover:bg-blue-500 focus:outline-none lg:mx-0 lg:w-auto">Demo</button>
+                        :class="className.buttons">Demo</button>
                     <button
-                        class="mt-6 rounded-lg border-2 text-blue-300 border-blue-300 px-6 py-2.5 text-center text-xl font-medium capitalize leading-5   hover:bg-blue-500 focus:outline-none lg:mx-0 lg:w-auto">Github</button>
+                    :class="className.buttons">Github</button>
                 </div>
 
             </div>
@@ -25,5 +25,8 @@
     </div>
 </template>
 <script setup lang="ts">
+const className = {
+    buttons: "mt-6 rounded-lg border-2 text-blue-300 border-blue-300 px-6 py-2.5 text-center text-xl font-medium capitalize leading-5  hover:bg-blue-500 hover:text-white hover:border-white focus:outline-none lg:mx-0 lg:w-auto"
+}
 defineProps<{ title: string, image: string, description: string, isCover?: boolean }>()
 </script>

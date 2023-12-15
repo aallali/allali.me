@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useDarkMode } from "~/composable/store"
+import { useDarkMode } from "@/composable/store"
 
 </script>
 <template>
@@ -16,4 +16,4 @@ import { useDarkMode } from "~/composable/store"
                 fill-rule="evenodd" clip-rule="evenodd"></path>
         </svg>
     </button>
-</template>~/composable/store
+</template>

@@ -46,7 +46,7 @@
 
  
 <script setup lang="ts">
-import { parseXml } from "~/composable/store";
+import { parseXml } from "@/composable/store";
 const posts = ref<{
     title: string;
     link: string | undefined;

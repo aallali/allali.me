@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useMenu } from '../composable/store'
+import { useMenu } from '@/composable/store'
 
 </script>
 
@@ -22,5 +22,3 @@ import { useMenu } from '../composable/store'
         </button>
     </div>
 </template>
-
- ../composable/store
