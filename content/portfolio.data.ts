@@ -36,7 +36,6 @@ Throughout my journey, I've independently acquired proficiency in a diverse rang
                 title: 'Multilayer Perceptron',
                 image: '/images/mlp.gif',
                 link: {
-                    demo: '',
                     github: 'https://github.com/aallali/multilayer-perceptron',
                 },
                 description: 'implementation of a multilayer perceptron from scratch.',
@@ -46,7 +45,6 @@ Throughout my journey, I've independently acquired proficiency in a diverse rang
                 title: 'Leaffliction',
                 image: '/images/leaffliction.gif',
                 link: {
-                    demo: '',
                     github: 'https://github.com/aallali/leaffliction',
                 },
                 description: 'Here, I perform the analysis, augmentation and transformation of a leaf dataset. After image classification using a Convolutional Neural Network.',
@@ -56,7 +54,6 @@ Throughout my journey, I've independently acquired proficiency in a diverse rang
                 title: 'Linear Regression',
                 image: 'https://raw.githubusercontent.com/aallali/ft-linear-regression/main/pic/LR-Live.gif',
                 link: {
-                    demo: '',
                     github: 'https://github.com/aallali/ft-linear-regression',
                 },
                 description: 'The aim of this project is to introduce you to the basic concept behind machine learning. For this project, you will have to create a program that predicts the price of a car by using a linear function train with a gradient descent algorithm.',
@@ -66,7 +63,6 @@ Throughout my journey, I've independently acquired proficiency in a diverse rang
                 title: 'DSLR',
                 image: '/images/hogwarts.gif',
                 link: {
-                    demo: '',
                     github: 'https://github.com/aallali/DSLR--Data-Science-X-Logistic-Regression-',
                 },
                 description: 'Data Science x Logistic Regression, is a project that aims to analyze a data set and predict Hogwarts House.',
@@ -85,7 +81,6 @@ Throughout my journey, I've independently acquired proficiency in a diverse rang
                 title: 'DeepEye',
                 image: 'https://raw.githubusercontent.com/aallali/DeepEye/main/Ressources/DeepEye-logo.png',
                 link: {
-                    demo: '',
                     github: 'https://github.com/aallali/deepeye',
                 },
                 description: 'a CLI that simply help you make search queries through files quickly using plain text or regex expressions, while having detailed output about it. The project meant to be simple and HELPFUL'
@@ -94,7 +89,6 @@ Throughout my journey, I've independently acquired proficiency in a diverse rang
                 title: 'Inception of Things',
                 image: 'https://cloudvests.com/wp-content/uploads/2020/08/How-To-Create-a-Kubernetes-Cluster-Using-Kubeadm-on-Ubuntu-18.jpg',
                 link: {
-                    demo: '',
                     github: 'https://github.com/aallali/Inception-of-Things/tree/v2/1337',
                 },
                 description: 'This project aims to introduce you to kubernetes from a developer perspective. You will have to set up small clusters and discover the mechanics of continuous integration. At the end of this project you will be able to have a working cluster in docker and have a usable continuous integration for your applications Resources',
@@ -104,7 +98,6 @@ Throughout my journey, I've independently acquired proficiency in a diverse rang
                 title: 'Red-Tetris',
                 image: '/images/tetris.gif',
                 link: {
-                    demo: '',
                     github: 'https://github.com/aallali/red-tetris',
                 },
                 description: 'The objective of this project is to develop a networked multiplayer tetris game from a stack of software exclusively Full Stack Javascript',
