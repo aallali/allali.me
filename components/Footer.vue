@@ -106,7 +106,7 @@
 
 
                 </ul>
-                <p class="mt-4 text-sm text-gray-500 dark:text-gray-300 sm:mt-0">© Copyright 2023. All Rights Reserved.</p>
+                <p class="mt-4 text-sm text-gray-500 dark:text-gray-300 sm:mt-0">© Copyright {{new Date().getFullYear()}}. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
