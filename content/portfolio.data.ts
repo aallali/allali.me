@@ -24,15 +24,6 @@ Throughout my journey, I've independently acquired proficiency in a diverse rang
                 isCoverImg: true
             },
             {
-                title: 'Leaffliction',
-                image: '/images/leaffliction.gif',
-                link: {
-                    demo: '',
-                    github: 'https://github.com/aallali/leaffliction',
-                },
-                description: 'Here, I perform the analysis, augmentation and transformation of a leaf dataset. After image classification using a Convolutional Neural Network.',
-                isCoverImg: true
-            }, { 
                 title: 'Total Perspective Vortex',
                 image: '/images/eeg.jpg',
                 link: {
@@ -49,6 +40,16 @@ Throughout my journey, I've independently acquired proficiency in a diverse rang
                     github: 'https://github.com/aallali/multilayer-perceptron',
                 },
                 description: 'implementation of a multilayer perceptron from scratch.',
+                isCoverImg: true
+            },
+            {
+                title: 'Leaffliction',
+                image: '/images/leaffliction.gif',
+                link: {
+                    demo: '',
+                    github: 'https://github.com/aallali/leaffliction',
+                },
+                description: 'Here, I perform the analysis, augmentation and transformation of a leaf dataset. After image classification using a Convolutional Neural Network.',
                 isCoverImg: true
             },
             {
