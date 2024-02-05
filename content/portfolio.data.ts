@@ -33,19 +33,10 @@ Throughout my journey, I've independently acquired proficiency in a diverse rang
                 isCoverImg: true
             },
             {
-                title: 'Multilayer Perceptron',
-                image: '/images/mlp.gif',
-                link: {
-                    github: 'https://github.com/aallali/multilayer-perceptron',
-                },
-                description: 'implementation of a multilayer perceptron from scratch.',
-                isCoverImg: true
-            },
-            {
-                title: 'Leaffliction',
+                title: 'Leaffliction (Leaf-Diseases-Classification)',
                 image: '/images/leaffliction.gif',
                 link: {
-                    github: 'https://github.com/aallali/leaffliction',
+                    github: 'https://github.com/aallali/Leaf-Diseases-Classification',
                 },
                 description: 'Here, I perform the analysis, augmentation and transformation of a leaf dataset. After image classification using a Convolutional Neural Network.',
                 isCoverImg: true
@@ -58,6 +49,15 @@ Throughout my journey, I've independently acquired proficiency in a diverse rang
                 },
                 description: 'The aim of this project is to introduce you to the basic concept behind machine learning. For this project, you will have to create a program that predicts the price of a car by using a linear function train with a gradient descent algorithm.',
 
+            },
+            {
+                title: 'Multilayer Perceptron',
+                image: '/images/mlp.gif',
+                link: {
+                    github: 'https://github.com/aallali/multilayer-perceptron',
+                },
+                description: 'implementation of a multilayer perceptron from scratch.',
+                isCoverImg: true
             },
             {
                 title: 'DSLR',
