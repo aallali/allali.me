@@ -34,7 +34,7 @@ Throughout my journey, I've independently acquired proficiency in a diverse rang
             },
             {
                 title: 'Leaffliction (Leaf-Diseases-Classification)',
-                image: '/images/leaffliction.gif',
+                image: '/images/leaffliction-2.gif',
                 link: {
                     github: 'https://github.com/aallali/Leaf-Diseases-Classification',
                 },
