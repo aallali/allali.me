@@ -51,6 +51,15 @@ Throughout my journey, I've independently acquired proficiency in a diverse rang
 
             },
             {
+                title: '3D-Protein',
+                image: '/images/protein.gif',
+                link: {
+                    github: 'https://github.com/aallali/3D-Protein',
+                },
+                description: 'in 3D Render the protein structure based on its PDB file - Mobile App (react natve)',
+                isCoverImg: true
+            },
+            {
                 title: 'Multilayer Perceptron',
                 image: '/images/mlp.gif',
                 link: {
