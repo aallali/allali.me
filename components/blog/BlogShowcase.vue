@@ -10,7 +10,7 @@
         <div class="mt-8 grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-2 xl:grid-cols-4  ">
 
             <div v-if="posts?.length"  v-for="post in posts">
-                <a :href="post.link" target="_blank">
+                <a :href="'https://blog.allali.me' + post.link" target="_blank">
 
                     <div class="relative">
                         <img class="h-44 w-full rounded-lg object-cover object-center shadow-md" :src="post.image" loading="lazy"
